@@ -1,0 +1,17 @@
+h1 {
+    color: silver;
+    text-align: center;
+    font-size: 5vw;
+}
+body {
+    background: rgb(44,48,44);
+    background: linear-gradient(0deg, rgba(44,48,44,0.9700922605370274) 1%, rgba(7,7,20,1) 21%, rgba(29,29,37,1) 75%, rgba(67,67,67,0.9476832969515931) 100%);
+    margin: 1vw 1vw 1vw 1vw;
+    font-family: Arial;
+}
+
+@media (orientation: portrait){
+    h1{
+        font-size: 8vw;
+    }
+}

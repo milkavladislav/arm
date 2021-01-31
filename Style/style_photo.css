@@ -1,0 +1,65 @@
+.column {
+    float: left;
+    width: 15%;
+    padding: 0.8%;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+    .column img:hover {
+        opacity: 1;
+    }
+
+.container {
+    position: relative;
+    display: none;
+    padding: 0 10% 0 10%;
+}
+
+#expandedImg{
+    width: 100%;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    background-color: grey;
+    opacity: 0.8;
+    color: black;
+    font-size: 4vw;
+}
+
+.closebtn {
+    position: absolute;
+    top: 1%;
+    right: 12%;
+    color: grey;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+@media (orientation: portrait){
+    .column {
+        width: 47%;
+        padding: 0.8%;
+    }
+    .container {
+        padding: 0 1% 0 1%;
+    }
+    #imgtext {
+        left: 1%;
+    }
+    .closebtn {
+        font-size: 6vw;
+        right: 3%;
+    }
+
+}

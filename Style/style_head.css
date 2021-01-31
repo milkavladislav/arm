@@ -1,0 +1,37 @@
+body {
+    background: rgb(44,48,44);
+    background: linear-gradient(0deg, rgba(44,48,44,0.9700922605370274) 1%, rgba(7,7,20,1) 21%, rgba(29,29,37,1) 75%, rgba(67,67,67,0.9476832969515931) 100%);
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+div{
+    height: 90%;
+}
+
+#logo_site{
+    height: 100%;
+    border-radius: 10%;
+}
+
+#name_site {
+    margin: 0% auto 0% auto;
+}
+
+#name_site a img{
+    height: 100%;
+}
+
+@media (max-width: 1000px){
+    div{
+        height: 80%;
+    }
+}

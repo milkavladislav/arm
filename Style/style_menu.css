@@ -1,0 +1,38 @@
+body {
+    background-color: #111;
+    overflow-x: hidden;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+a {
+    text-decoration: none;
+    font-size: 13vw;
+    color: #818181;
+    display: block;
+}
+
+a:hover {
+    font-style: oblique;
+    color: #f1f1f1;
+}
+
+#response {
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+    text-align: right;
+}
+
+    #response a {
+        font-size: 8vw;
+    }
+
+@media (max-width: 300px) {
+    a{
+        font-size: 20vw;
+    }
+
+    #response a {
+        font-size: 10vw;
+    }
+}

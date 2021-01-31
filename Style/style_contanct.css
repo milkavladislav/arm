@@ -1,0 +1,42 @@
+h2{
+    font-size: 3vw;
+    color: rgb(170, 170, 170);
+}
+
+h3{
+    font-size: 2vw;
+    color:rgb(175, 150, 150)
+}
+
+iframe{
+    width: 99%;
+    height: 70%;
+}
+
+.social-icons{
+    text-align: center;
+}  
+    .social-icons li{
+        display: inline-block;
+        list-style-type: none;
+    }
+        .social-icons li a{
+            border-bottom: none;
+        }
+        .social-icons li img{
+            width: 3vw;
+            margin-right: 10vw;
+            margin-left: 10vw;
+        }
+
+@media (orientation: portrait){
+    .social-icons li img{
+        width: 6vw;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+}

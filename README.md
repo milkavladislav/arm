@@ -1,0 +1,1 @@
+A simple example of a website using HTML, CSS.
